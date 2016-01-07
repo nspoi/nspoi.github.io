@@ -1,0 +1,120 @@
+
+h4 {
+  color: #097BA9;
+}
+body{
+  margin-top: 5vh;
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+
+  max-width: 90vw;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+}
+
+.hero-unit h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+img.logo{
+     width: 80%;
+    max-width: 25vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.branding{
+  font-family: Cursive;
+}
+.branding h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-size: 2.8vw;
+}
+
+.abbrev{
+  font-family: 'sans';
+  font-size: 3rem;
+}
+
+.border{
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.pad{
+  padding: 5px;
+}
+
+nav{
+  margin-top: 3vh;
+  background: #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav > .button{
+  margin: 0;
+  border: none;
+  color: gray;
+  padding: 0 2vw;
+}
+
+main{
+  min-height: 50vh;
+}
+main img{
+  margin-top: 3vh;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.right{
+  float: right;
+}
+
+.justifytext{
+  text-align: justify;
+}
+.questioniares >h6>strong {
+  font-size: 1.75rem;
+    color: #097BA9;
+  font-weight: normal;
+}
+#titlecover {
+  display: none;
+}
+.membersimg {
+  width: 100%;
+  height: auto;
+}
+
+footer{
+  background: lightblue;
+  margin: 0;
+  padding: 0;
+}
