@@ -111,6 +111,10 @@ main img{
 .membersimg {
   width: 100%;
   height: 150px;
+} 
+
+.memberstable img {
+  width: 18em;
 }
 
 footer{
