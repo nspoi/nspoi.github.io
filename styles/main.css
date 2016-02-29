@@ -54,7 +54,8 @@ img.logo{
 
 .branding h2 {
   text-align: center;
-  font-size: 3rem;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 .abbrev{
@@ -68,6 +69,7 @@ img.logo{
 }
 
 section{ padding-top: 20px; }
+td { border: none }
 
 nav{
   margin-top: 3vh;
