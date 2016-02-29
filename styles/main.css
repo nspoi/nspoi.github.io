@@ -128,3 +128,15 @@ footer{
   margin: 0;
   padding: 0;
 }
+
+.members-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.member {
+  width: 15%;
+  height: auto;
+  margin-right: 15px;
+}
