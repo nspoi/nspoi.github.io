@@ -1,17 +1,18 @@
-
+@import url(https://fonts.googleapis.com/css?family=Lato);
 h4 {
   color: #097BA9;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 body{
   margin-top: 5vh;
   background: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+  font-family: 'Lato' !important;
 }
 
 .container {
-
   max-width: 90vw;
 }
 
@@ -56,6 +57,7 @@ img.logo{
   text-align: center;
   margin: 0;
   font-size: 2.5rem;
+  font-size: 2vw;
 }
 
 .abbrev{
@@ -68,8 +70,13 @@ img.logo{
   border-radius: 4px;
 }
 
-section{ padding-top: 20px; }
-td { border: none }
+section{
+ padding-top: 20px; 
+}
+
+td {
+ border: none 
+}
 
 nav{
   margin-top: 3vh;
@@ -136,7 +143,35 @@ footer{
 }
 
 .member {
-  width: 15%;
+  width: 19%;
   height: auto;
-  margin-right: 15px;
+  margin-right: 1%;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
+
+.member img{
+  background-position: cover;
+}
+
+.list-header {
+  padding-top: 25px;
+  line-height: 1;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  width: 48%;
+  height: auto;
+}
+
+img.two.columns{
+  width: 10%;
+  height: auto;
+}
+
