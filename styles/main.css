@@ -183,3 +183,14 @@ img.two.columns{
 td > img + div {
   text-align: center
 }
+
+.slider--image-container h3 {
+  background: rgba(0,0,0,0.2);
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: -10px;
+  height: 40px;
+  width: 100%;
+}
