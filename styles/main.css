@@ -194,3 +194,7 @@ td > img + div {
   height: 40px;
   width: 100%;
 }
+
+.centered-text {
+  text-align: center;
+}
