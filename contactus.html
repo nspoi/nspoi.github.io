@@ -98,7 +98,10 @@
 
     <script>
       function showContact () {
-        document.getElementById('contact').innerHTML = ""
+        if (document.getElementById('contact') != "")
+          document.getElementById('contact').innerHTML = ""
+        else
+          document.getElementById('contact').innerHTML = "jnspoi2016@gmail.com"
       }
     </script>
 
